@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/johan/git/github/gobplanner/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/johan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/johan/git/github/gobplanner/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/johan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/johan/git/github/gobplanner/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/home/johan/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/johan/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/johan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/johan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/johan/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/johan/git/github/gobplanner/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/johan/git/github/gobplanner/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/johan/git/github/gobplanner/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "13556778359846181584"
+		}
+	},
+	"toolchains" : 
+	{
+		"13556778359846181584" : 
+		{
+			"cCompilerExecutable" : "/home/johan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/johan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
